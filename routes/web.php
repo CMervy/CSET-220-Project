@@ -11,3 +11,12 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register');
 });
+Route::get('/roles', function () {
+    return view('roles');
+});
+Route::get('/patients', function () {
+    return view('patients');
+});
+Route::get('/registration-approval', function () {
+    return view('registration-approval');
+});
