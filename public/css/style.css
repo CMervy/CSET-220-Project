@@ -124,3 +124,65 @@ main.wide {
 .search-form button {
     margin-top: 0;
 }
+textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #2c3e50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.button::-webkit-details-marker {
+    display: none;
+}
+
+.button:hover {
+    background: #1a252f;
+}
+
+details form {
+    margin-top: 10px;
+}
+.button.small {
+    padding: 4px 10px;
+    font-size: 13px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.button.small:hover {
+    text-decoration: none;
+}
+
+.given {
+    display: block;
+    color: #1e7e34;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.not-given {
+    display: block;
+    color: #c0392b;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.search-form + table {
+    margin-top: 15px;
+}
+.total-row td {
+    font-weight: bold;
+    border-top: 2px solid #2c3e50;
+    background: #eef2f5;
+}

@@ -20,3 +20,12 @@ Route::get('/patients', function () {
 Route::get('/registration-approval', function () {
     return view('registration-approval');
 });
+Route::get('/patient-of-doctor', function () {
+    return view('patient-of-doctor');
+});
+Route::get('/doctor-home', function () {
+    return view('doctor-home');
+});
+Route::get('/payment', function () {
+    return view('payment');
+});
